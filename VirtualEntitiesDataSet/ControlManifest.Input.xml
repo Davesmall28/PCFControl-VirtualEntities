@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Springboard365" constructor="VirtualEntitiesDataSet" version="0.0.3" display-name-key="VirtualEntitiesDataSet" description-key="VirtualEntitiesDataSet description" control-type="standard">
+    <data-set name="sampleDataSet" display-name-key="Dataset_Display_Key">
+    </data-set>
+    <property name="webApiUrl" display-name-key="Web Api Url" description-key="The url of the web api that you would like to present on the form." of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
